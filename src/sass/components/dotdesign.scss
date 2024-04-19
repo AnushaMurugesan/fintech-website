@@ -1,0 +1,23 @@
+@import '../mixins.scss';
+
+.dotDesignContainer{
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: var(--black);
+    border-radius: 50%;
+}
+
+
+@include for-tablet-portrait-up {
+    .dotDesignContainer{
+        width: 4.2rem;
+        height: 4.2rem;
+    }
+}
+
+@include for-tablet-landscape-up {
+    .dotDesignContainer{
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+}

@@ -1,0 +1,31 @@
+@import '../mixins.scss';
+
+.btnContainer{
+    font-size: 1.39rem;
+    font-weight: 400 ;
+    padding: 0.7rem 2rem;
+    border-radius: 30px;
+    border: 1.4px solid var(--black);
+    cursor: pointer;
+}
+
+.smallPadding{
+    padding: 0.7rem 2rem;
+}
+.bigPadding{
+    padding: 1.5rem 2.2rem;
+}
+
+
+@include for-tablet-portrait-up {
+    .btnContainer{
+        font-size: 1rem;
+    }
+}
+
+@include for-tablet-landscape-up {
+    .btnContainer{
+        font-size: 1.2rem;
+    }
+}
+

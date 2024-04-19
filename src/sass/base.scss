@@ -1,0 +1,29 @@
+@import '../sass/mixins.scss';
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  html{
+    font-size: 10px;
+  }
+  
+  body {
+    // font-size: 10px;
+    padding: 0rem 6rem;
+  }
+  
+  //700px to 900px
+  // @include for-tablet-landscape-up{
+  //   html{
+  //     font-size: 8.7px;
+  //   }
+  // }
+
+  // @include for-tablet-portrait-up{
+  //   html{
+  //     font-size: 7.5px;
+  //   }
+  // }
+

@@ -1,0 +1,19 @@
+@mixin for-phone-only {
+    @media (max-width: 699px) { @content; }
+  }
+  @mixin for-tablet-portrait-up {
+    @media (min-width: 700px) and (max-width:899px) { @content; }
+  }
+  @mixin for-tablet-landscape-up {
+    @media (min-width: 900px) and (max-width:1200px) { @content; }
+  }
+  //my screen
+  @mixin for-desktop-up {
+    @media (min-width: 1201px) and (max-width:1399px) { @content; }
+  }
+  @mixin for-big-desktop-up {
+    @media (min-width: 1400px) and (max-width:1599px) { @content; }
+  }
+  @mixin for-4k-devices {
+    @media (min-width: 1600px){ @content; }
+  }
